@@ -1,0 +1,78 @@
+.fira-sans-normal {
+    font-family: "Fira Sans", sans-serif;
+    /* font-optical-sizing: auto; */
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0 160px;
+}
+
+/* shared styles */
+.btn-primary {
+    padding: 17px 34px 17px 34px;
+    border-radius: 8px;
+    background: rgba(0, 106, 80, 1);
+    border: none;
+    font-size: 18px;
+    font-weight: 500px;
+    color: white;
+}
+
+/* nav styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px 0 24px 0;
+}
+
+.nav-title {
+    font-size: 32px;
+    font-weight: bold;
+
+}
+
+.btn {
+    padding: 15px 30px;
+    color: rgba(0, 106, 80, 1);
+    font-size: 18px;
+    font-weight: 600;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 106, 80, 1);
+    border-radius: 8px;
+}
+
+/* hero styles */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    gap: 64px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    padding: 80px 100px 80px 100px;
+}
+.hero-contant {
+    max-width: 1280px;
+}
+.hero-contant .title {
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.hero-contant .description {
+    color: rgba(14, 14, 14, 1);
+    font-size: 56px;
+    font-weight: 700;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+.hero-img{
+    width: 470px;
+}
