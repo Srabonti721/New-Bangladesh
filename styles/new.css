@@ -27,6 +27,10 @@ body {
     font-size: 40px;
     font-weight: bold;
 }
+.margin{
+margin-top: 80px;
+}
+
 
 /* nav styles */
 nav {
@@ -81,9 +85,10 @@ nav {
     width: 470px;
 }
 /* pillar styles */
-.Pillar-title{
-margin: 80px 0 32px 0;
+.pillar-title{
+    margin-bottom: 32px;
 }
+
 .Pillar-card-container{
     display: flex;
     gap: 24px;
@@ -106,4 +111,46 @@ padding: 24px;
     color: rgba(14, 14, 14, 0.7);
 font-size: 16px;
 font-weight: 400;
+}
+/* future styles */
+.future-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+.future-dicription{
+    margin: 24px 0 32px 0;
+    color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+}
+.future-card{
+    box-sizing: border-box;
+border-radius: 16px;
+background: rgba(84, 144, 245, 0.2);
+padding: 32px;
+}
+.future-card-title{
+    margin: 24px 0 12px 0;
+    color: rgba(14, 14, 14, 0.8);
+font-size: 20px;
+font-weight: 700;
+}
+.future-card-discription{
+    margin-bottom: 24px;
+    color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+}
+.yellow{
+background: rgba(247, 235, 207, 1);
+}
+.green{
+background: rgba(198, 228, 214, 1);
+}
+.btn-yellow{
+    background: rgba(255, 194, 57, 1);
+}
+.btn-blue{
+    background: rgba(84, 144, 245, 1);
 }
