@@ -175,6 +175,7 @@ nav {
     background: rgba(84, 144, 245, 1);
 }
 
+/* challenge */
 .challenge {
     margin-top: 32px;
     box-sizing: border-box;
@@ -205,4 +206,56 @@ nav {
     color: rgba(14, 14, 14, 0.6);
     font-size: 16px;
     font-weight: 400;
+}
+
+/* news */
+.news-discription {
+    margin: 24px 0 32px 0;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.news {
+    display: flex;
+    gap: 32px;
+    border: 1px solid rgba(14, 14, 14, 0.15) ;
+    padding: 48px;
+    border-radius: 24px;
+     box-sizing: border-box;
+      background: rgba(255, 255, 255, 1);
+    margin-bottom: 24px;
+}
+.new{
+    display: flex;
+    flex-direction: row-reverse;
+      gap: 32px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 48px;
+    box-sizing: border-box;
+    border-radius: 24px;
+     margin-bottom: 24px;
+    background: rgba(255, 255, 255, 1);
+}
+.news-img{
+    width: 400px;
+    border-radius: 24px;
+}
+.news-contant-title{
+margin-bottom: 12px;
+color: rgba(14, 14, 14, 0.8);
+font-size: 32px;
+font-weight: 700;
+}
+.span{
+    padding-right: 10px ;
+    color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+}
+.news-contant-discription{
+    color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+margin: 12px 0 32px 0;
 }
