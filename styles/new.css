@@ -35,6 +35,9 @@ body {
     margin-top: 80px;
 }
 
+.center {
+    text-align: center;
+}
 
 /* nav styles */
 nav {
@@ -219,43 +222,91 @@ nav {
 .news {
     display: flex;
     gap: 32px;
-    border: 1px solid rgba(14, 14, 14, 0.15) ;
+    border: 1px solid rgba(14, 14, 14, 0.15);
     padding: 48px;
     border-radius: 24px;
-     box-sizing: border-box;
-      background: rgba(255, 255, 255, 1);
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 1);
     margin-bottom: 24px;
 }
-.new{
+
+.new {
     display: flex;
     flex-direction: row-reverse;
-      gap: 32px;
+    gap: 32px;
     border: 1px solid rgba(14, 14, 14, 0.15);
     padding: 48px;
     box-sizing: border-box;
     border-radius: 24px;
-     margin-bottom: 24px;
+    margin-bottom: 24px;
     background: rgba(255, 255, 255, 1);
 }
-.news-img{
+
+.news-img {
     width: 400px;
     border-radius: 24px;
 }
-.news-contant-title{
-margin-bottom: 12px;
-color: rgba(14, 14, 14, 0.8);
-font-size: 32px;
-font-weight: 700;
+
+.news-contant-title {
+    margin-bottom: 12px;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 32px;
+    font-weight: 700;
 }
-.span{
-    padding-right: 10px ;
+
+.span {
+    padding-right: 10px;
     color: rgba(14, 14, 14, 0.7);
-font-size: 16px;
-font-weight: 400;
+    font-size: 16px;
+    font-weight: 400;
 }
-.news-contant-discription{
+
+.news-contant-discription {
     color: rgba(14, 14, 14, 0.7);
-font-size: 16px;
-font-weight: 400;
-margin: 12px 0 32px 0;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 12px 0 32px 0;
+}
+
+/* donate */
+.donate {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 24px 0 32px 0;
+}
+
+.taka {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.donet-taka {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+    font-weight: 700;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 1);
+
+}
+
+.bg-green {
+    background-color: #C6E4D6;
+}
+
+.donate-discription {
+    margin: 32px 0 32px 0;
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 20px;
+    font-weight: 400;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 1);
+    padding: 20px 40px 20px 40px;
 }
