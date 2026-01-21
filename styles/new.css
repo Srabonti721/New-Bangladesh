@@ -310,6 +310,25 @@ nav {
     background: rgba(255, 255, 255, 1);
     padding: 20px 40px 20px 40px;
 }
+/* news letter styles */
+.letter{
+        background-color: #C6E4D6;
+    border-radius: 24px;
+    padding: 80px 100px 80px 100px;
+}
+.leter-discription{
+    color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+margin: 12px 0 24px 0;
+}
+.letter-subtitle{
+    color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+margin-top: 24px;
+
+}
 /* footer styles */
 footer{
     background: rgba(255, 255, 255, 1);
