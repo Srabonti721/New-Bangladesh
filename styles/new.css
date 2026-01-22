@@ -218,6 +218,46 @@ nav {
     font-weight: 400;
 }
 
+/* opinion styles */
+.table-container {
+    margin-top: 24px;
+    border-radius: 16px;
+    padding: 32px;
+    background: rgba(255, 255, 255, );
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td,
+th {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(14, 14, 14, 1);
+    font-size: 16px;
+    font-weight: 600;
+    padding: 24px 36px;
+    width: 100%;
+}
+
+tbody .select {
+    background-color: aquamarine;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 1);
+    border-radius: 4px;
+    background: rgba(198, 228, 214, 1);
+    padding: 10px 14px;
+}
+
+.table-head-tr {}
+
+.table-head {
+    background-color: rgba(198, 228, 214, 1);
+    text-align: left;
+}
+
 /* news */
 .news-discription {
     margin: 24px 0 32px 0;
