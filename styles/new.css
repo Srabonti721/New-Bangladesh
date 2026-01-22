@@ -31,6 +31,10 @@ body {
     text-decoration: underline;
     background-color: blueviolet;
 }
+.subcribe:hover{
+    text-decoration: underline;
+    background-color: blueviolet;
+}
 
 .section-title {
     font-size: 40px;
