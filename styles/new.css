@@ -16,7 +16,7 @@ body {
 }
 
 /* shared styles */
-.btn-primary  {
+.btn-primary {
     padding: 17px 34px 17px 34px;
     border-radius: 8px;
     background: rgba(0, 106, 80, 1);
@@ -26,10 +26,12 @@ body {
     color: white;
     cursor: pointer;
 }
-.btn-primary:hover{
-       text-decoration: underline;
-       background-color: blueviolet;
+
+.btn-primary:hover {
+    text-decoration: underline;
+    background-color: blueviolet;
 }
+
 .section-title {
     font-size: 40px;
     font-weight: bold;
@@ -65,7 +67,7 @@ nav {
     box-sizing: border-box;
     border: 1px solid rgba(0, 106, 80, 1);
     border-radius: 8px;
- 
+
 }
 
 /* hero styles */
@@ -304,7 +306,8 @@ nav {
     background-color: #C6E4D6;
 }
 
-.donate-discription {
+input[type="text"] {
+    width: 100%;
     margin: 32px 0 32px 0;
     color: rgba(14, 14, 14, 0.3);
     font-size: 20px;
@@ -314,37 +317,71 @@ nav {
     border-radius: 16px;
     background: rgba(255, 255, 255, 1);
     padding: 20px 40px 20px 40px;
+    text-align: center;
 }
+
 /* news letter styles */
-.letter{
-        background-color: #C6E4D6;
+.letter {
+    background-color: #C6E4D6;
     border-radius: 24px;
     padding: 80px 100px 80px 100px;
 }
-.leter-discription{
-    color: rgba(14, 14, 14, 0.7);
-font-size: 16px;
-font-weight: 400;
-margin: 12px 0 24px 0;
-}
-.letter-subtitle{
-    color: rgba(14, 14, 14, 0.7);
-font-size: 16px;
-font-weight: 400;
-margin-top: 24px;
 
+.leter-discription {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 12px 0 24px 0;
 }
+
+.letter-subtitle {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 24px;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="email"] {
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 18px 40px 18px 40px;
+    border-radius: 8px 0px 0px 8px;
+    background: rgba(255, 255, 255, 1);
+    border: none;
+    width: 50%;
+}
+
+.subcribe {
+    padding: 17px 34px 17px 34px;
+    border-radius: 0 8px 8px 0;
+    background: rgba(0, 106, 80, 1);
+    border: none;
+    font-size: 18px;
+    font-weight: 500px;
+    color: white;
+    cursor: pointer;
+}
+
 /* footer styles */
-footer{
+footer {
     background: rgba(255, 255, 255, 1);
 }
-.footer-title{
+
+.footer-title {
     color: rgba(14, 14, 14, 1);
-font-size: 32px;
-font-weight: 700;
-margin-bottom: 64px;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 64px;
 }
-.footer-icon{
+
+.footer-icon {
     display: flex;
     gap: 23px;
     justify-content: center;
