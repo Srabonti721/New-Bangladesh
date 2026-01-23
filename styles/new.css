@@ -255,11 +255,10 @@ tbody .select {
     padding: 10px 14px;
 }
 
-.table-head-tr {}
-
 .table-head {
     background-color: rgba(198, 228, 214, 1);
     text-align: left;
+    border: none;
 }
 
 /* news */
